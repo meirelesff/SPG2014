@@ -1,0 +1,103 @@
+% -------------------------------------------------------------
+% Proposta de Oficina para a SGP/UFRGS 2014  
+% -------------------------------------------------------------
+
+%DOCUMENTO
+\documentclass[article,12pt,oneside,a4paper,english,brazilian]{abntex2}
+
+%IDIOMA
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% CONFIGURACOES DA PAGINA
+\usepackage{indentfirst}		
+\usepackage{nomencl} 			
+\usepackage{color}			
+\usepackage{graphicx}			
+\usepackage{microtype} 
+\usepackage{setspace}
+
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0.2cm}  
+\renewcommand{\baselinestretch}{1.5} 
+
+% FONTE
+\usepackage{pslatex}
+\usepackage[LGRgreek]{mathastext}
+
+% REFERENCIAS
+\usepackage[alf]{abntex2cite}
+
+% INFORMACOES
+\titulo{Ainda sem título}
+\author{Fernando Meireles}
+\data{Agosto, 2014}
+\instituicao{%
+  Universidade de Brasília (UnB)
+  \par
+  Faculdade de Arquitetura da Informação
+  \par
+  Programa de Pós-Graduação}
+\tipotrabalho{Projeto}
+\preambulo{Projeto de pesquisa em conformidade
+com as normas ABNT apresentado à comunidade de usuários \LaTeX.}
+
+
+% PDF
+\definecolor{blue}{RGB}{41,5,195}
+\makeatletter
+\hypersetup{pdftitle={\@title},pdfauthor={\@author},  	pdfsubject={Paper},pdfcreator={LaTex},pdfkeywords={Paper}, colorlinks=true,linkcolor=blue,citecolor=blue, filecolor=magenta, urlcolor=blue,bookmarksdepth=4}
+\makeatother
+\checkandfixthelayout
+% TEXTO
+\begin{document}
+\imprimirfolhaderosto
+\frenchspacing 
+
+\begin{abstract}
+Indicadores são os \emph{building blocks} da maioria das pesquisas em Ciências Sociais. A ênfase dos \emph{textbooks}, contudo, recai majoritariamente sobre os testes, às vezes relegando o papel daqueles na produção de inferências confiáveis. Com esta proposta de Oficina, procuramos atacar essa assimetria introduzindo estratégias de formulação e validação de indicadores nas Ciências Sociais. Especificamente, pretendemos fornecer e exemplificar alguns parâmetros de avaliação para, a partir daí, introduzirmos soluções como transformação de variáveis, uso de intervalos de confiança, simulação de Monte Carlo e \emph{fuzzy-sets}.
+ 
+\vspace{\onelineskip}
+\noindent
+\textbf{Palavras-chaves}: Metodologia das Ciências Sociais; Indicadores;  Mensuração.
+\end{abstract}
+\textual
+
+% Primeira seção
+\section{Introdução e Justificativa}
+
+A validade dos indicadores é uma condição necessária para que descrições e inferências feitas a partir deles sejam também válidas. Mesmo em estratégias qualitativas, o uso de categorias excludentes (e. g., pertencer a um determinado grupo) não está livre desses problemas \cite{ragin2000fuzzy}. Um breve exame da principal literatura metodológica nas ciências sociais, contudo, invariavelmente apontará o seguinte: discussões sobre a construção e a validação de indicadores são escassas. Tome-se, por exemplo, o clássico manual de \citeonline{king1994}, utilizado pela maioria dos cursos de ciência política: do total de seis capítulos, apenas dois discutem tangencialmente parâmetros mais gerais; todos os outros, dedicados ao desenho de pesquisa, pressupõem a existência de indicadores. Manuais mais recentes, como o de \citeonline{johnson2011} não vão muito mais longe. Nas principais revistas de metodologia da área, como \emph{Econometrika}, \emph{Sociological Methods \& Research} e \emph{Political Analysis}, o mesmo é facilmente verificado. 
+
+Apesar de não ser completamente inexistente, o grosso da literatura sobre indicadores tende a focar-se em aplicações \emph{ad hoc}, como, por exemplo, estimação bayesiana de preferências ideológicas \cite{martin2002}; operacionalização do conceito de capital social \cite{paldam2000}; ou mensuração e construção de indicadores para mensurar níveis de democracia \cite{coppedge2011,treier2008}. Poucas dessas questões têm relevância prática para o ensino da metodologia. E, como a condução de uma pesquisa envolve centenas de microdecisões que, mesmo involuntariamente, podem acabar enviesando os indicadores, a ausência de princípios comuns para se discutir essa, além de outras questões metodológicas, comprometem o desenvolvimento das Ciências Sociais\footnote{Talvez ainda mais em países cujo desenvolvimento científico é recente.} \cite{king1989}. 
+
+Com parâmetros abrangentes, portanto, esse componente essencial da pesquisa científica pode ser avaliada\cite{adcock2001}. O que propomos é, justamente, apresentar alguns. No restante da proposta, procuramos especificar como.
+
+% Segunda seção
+\section{Objetivos}
+
+De forma geral, o objetivo da Oficina proposta é introduzir algumas ferramentas para melhorar o uso de indicadores nas Ciências Sociais. Especificamente, pretendemos alcançar este através de:
+\begin{itemize}
+\item Exposição sistemática de alguns parâmetros usados na avaliação de indicadores sugeridos pela literatura (congruência, simplicidade, rastreabilidade e abrangência);
+\item Exposição de algumas ferramentas metodológicas utilizadas para criar e aprimorar indicadores (tranformação de variáveis e uso de intervalos de confiança, \emph{fuzzy-sets}, simulação de Monte Carlo, entre outros);
+\item Discussão de exemplos da literatura nas Ciências Sociais;
+\item Indicação de materiais adicionais/de apoio para aprofundamento.
+\end{itemize}
+
+
+% Terceira seção
+\section{Método de trabalho}
+
+A Oficina terá essencialmente o formato de seminário. Neste sentido, e de acordo com os limites de tempo, pretendemos expor o conteúdo mencionado em dois blocos de 40 minutos, incluindo a discussão de exemplos. Adicionalmente, pretendemos fazer uso de recursos multimídia para facilitar a compreensão e abrir um bloco 40 minutos para debate e questões.
+
+\subsection{Pré-requisitos}
+
+Embora abordaremos problemas simples, o conteúdo trabalhado pressupõem um conhecimento mínimo de álgebra (equivalente ao currículo do Ensino Fundamental); as noções de probabilidade e estatística descritiva necessárias serão cobertas durante a Oficina.
+
+\subsection{Recursos Utilizados}
+
+Os recursos necessários são: computador e projetor para a exposição de \emph{slides}. Conexão com a internet não é necessária, mas facilita a atividade.
+\postextual
+
+\bibliography{referencias}
+
+\end{document}

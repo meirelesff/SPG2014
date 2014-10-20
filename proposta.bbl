@@ -1,0 +1,59 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[Adcock 2001]{adcock2001}
+\abntrefinfo{Adcock}{ADCOCK}{2001}
+{ADCOCK, R. Measurement validity: A shared standard for qualitative and
+  quantitative research. In:  CAMBRIDGE UNIV PRESS. \emph{American Political
+  Science Association}. [S.l.], 2001. v.~95, n.~03, p. 529--546.}
+
+\bibitem[Coppedge et al. 2011]{coppedge2011}
+\abntrefinfo{Coppedge et al.}{COPPEDGE et al.}{2011}
+{COPPEDGE, M. et al. Conceptualizing and measuring democracy: A new approach.
+\emph{Perspectives on Politics}, Cambridge Univ Press, v.~9, n.~02, p.
+  247--267, 2011.}
+
+\bibitem[Johnson e Reynolds 2011]{johnson2011}
+\abntrefinfo{Johnson e Reynolds}{JOHNSON; REYNOLDS}{2011}
+{JOHNSON, J.~B.; REYNOLDS, H.~T. \emph{Political science research methods}.
+  [S.l.]: Cq Press, 2011.}
+
+\bibitem[King 1989]{king1989}
+\abntrefinfo{King}{KING}{1989}
+{KING, G. \emph{Unifying political methodology: The likelihood theory of
+  statistical inference}. [S.l.]: University of Michigan Press, 1989.}
+
+\bibitem[King, Keohane e Verba 1994]{king1994}
+\abntrefinfo{King, Keohane e Verba}{KING; KEOHANE; VERBA}{1994}
+{KING, G.; KEOHANE, R.~O.; VERBA, S. \emph{Designing social inquiry: Scientific
+  inference in qualitative research}. [S.l.]: Princeton University Press,
+  1994.}
+
+\bibitem[Martin e Quinn 2002]{martin2002}
+\abntrefinfo{Martin e Quinn}{MARTIN; QUINN}{2002}
+{MARTIN, A.~D.; QUINN, K.~M. Dynamic ideal point estimation via markov chain
+  monte carlo for the us supreme court, 1953--1999.
+\emph{Political Analysis}, SPM-PMSAPSA, v.~10, n.~2, p. 134--153, 2002.}
+
+\bibitem[Paldam 2000]{paldam2000}
+\abntrefinfo{Paldam}{PALDAM}{2000}
+{PALDAM, M. Social capital: one or many? definition and measurement.
+\emph{Journal of economic surveys}, Wiley Online Library, v.~14, n.~5, p.
+  629--653, 2000.}
+
+\bibitem[Ragin 2000]{ragin2000fuzzy}
+\abntrefinfo{Ragin}{RAGIN}{2000}
+{RAGIN, C.~C. \emph{Fuzzy-set social science}. [S.l.]: University of Chicago
+  Press, 2000.}
+
+\bibitem[Treier e Jackman 2008]{treier2008}
+\abntrefinfo{Treier e Jackman}{TREIER; JACKMAN}{2008}
+{TREIER, S.; JACKMAN, S. Democracy as a latent variable.
+\emph{American Journal of Political Science}, Wiley Online Library, v.~52,
+  n.~1, p. 201--217, 2008.}
+
+\end{thebibliography}
