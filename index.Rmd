@@ -169,7 +169,7 @@ CompSim(ccj53,"CCJ 53 (gov)","mean")
 
 ## Outras soluções
 
-- Modelos com efeitos mistos, _fuzzy sets_, desenhos puramente experimentais (_survey_ experimental, por exemplo), entre outros.
+- Modelos com efeitos mistos, _fuzzy sets_, desenhos puramente experimentais (_survey_ experimental, por exemplo), etc.
 
 ## Anexo
 
