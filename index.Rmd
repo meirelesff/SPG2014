@@ -1,79 +1,143 @@
 ---
-title: "ConstruÃ§Ã£o de Indicadores nas CiÃªncias Sociais"
-subtitle: "SalÃ£o de PÃ³s-GraduaÃ§Ã£o 2014"
+title: "Construção de Indicadores nas Ciências Sociais"
+subtitle: "IV Salão da Pós-Graduação"
 author: ""
-date: ""
+date: "Fernando Meireles, Aquilino Varela e Germano Ribeiro"
 output:
   ioslides_presentation:
     self_contained: false
     widescreen: false
     css: estilo.css
 ---
-# Primeira Parte
 
-## O que Ã© um indicador?
+## O que é um indicador?
 
-- Um composto construÃ­do para medir uma dimensÃ£o ou variÃ¡vel;
+- Um composto construído para medir uma variável;
 
 - Operador de conceitos;
 
-- Medida, geralmente quantitativa, que pode ser usada para ilustrar e comunicar de forma simples um conjunto de fenÃ´menos complexos.
+- Medida, geralmente quantitativa, que pode ser usada para ilustrar e comunicar de forma simples um conjunto de fenômenos complexos.
 
 ## Natureza dos indicadores
 
-- Por detrÃ¡s de teorias explÃ­citas ou hipÃ³teses hÃ¡ sempre um fenÃ´meno por explicar, por testar - uma _teoria auxiliar_;
+Quanto à natureza, indicadores podem ser _analíicos_ (constituído por uma única variável, como esperança de vida, taxa de alfabetização, de escolaridade média, etc) e _sintético_ ( resultante de uma composição de variáveis, como o IDH).
 
-- Esta teoria auxiliar tem a funÃ§Ã£o de especificar as relaÃ§Ãµes entre os mundos teÃ³rico e empÃ­rico;
-
-- Esta relaÃ§Ã£o Ã© referenciada na filosofia da ciÃªncia, na sociologia e literaturas psicomÃ©tricas como correlaÃ§Ã£o epistÃªmica, regras de correspondÃªncia e definiÃ§Ãµes operacionais consoante o caso.
-
-## Natureza dos indicadores
-
-Quanto Ã  natureza, indicadores podem ser _analÃ­ticos_ (constituÃ­do por uma Ãºnica variÃ¡vel, como esperanÃ§a de vida, taxa de alfabetizaÃ§Ã£o, de escolaridade mÃ©dia, etc) e _sintÃ©tico_ ( resultante de uma composiÃ§Ã£o de variÃ¡veis, como o IDH).
-
-Quanto Ã  natureza do ente indicado, um indicador pode ser:
-De _recurso_ (indicador de insumo), _realidade empÃ­rica_ (indicador-produto) e ou _processo_ (indicador-processo).
+Quanto à natureza do ente indicado, um indicador pode ser:
+De _recurso_ (indicador de insumo), _realidade empírica_ (indicador-produto) e ou _processo_ (indicador-processo).
 
 ## Tipos de indicadores
 
-- Indicadores como rendimento familiar; desempenho escolar; Ã­ndices de evasÃ£o; Ã­ndices de repetÃªncia; sÃ£o indicadores que podem ser medidos a partir de escalas de intervalo ou de proporÃ§Ã£o e podem ser trabalhados a partir de possÃ­veis relaÃ§Ãµes quantificÃ¡veis; 
+- Indicadores como rendimento familiar; desempenho escolar; índices de evasão; índices de repetência; são indicadores que podem ser medidos a partir de escalas de intervalo ou de proporção e podem ser trabalhados a partir de possíveis relações quantificáveis; 
 
-- Aspectos como concepÃ§Ãµes acerca da funÃ§Ã£o social da escola; preferÃªncias polÃ­tico-partidÃ¡rias, entre outros, sÃ³ podem ser medidos segundo escalas nominais ou ordinais.
+- Aspectos como concepções acerca da função social da escola; preferências político-partidárias, entre outros, podem ser medidos segundo escalas nominais ou ordinais.
 
 ## Proxy
 
--Problema do crescimento e do desenvolvimento econÃ´micos: como mensurar desenvolvimento?
--A soluÃ§Ã£o mais frequente na literatura Ã© o PIB per capita, um __proxy__.
+- Problema do crescimento e do desenvolvimento econômicos: como mensurar desenvolvimento?
+- A solução mais frequente na literatura é o PIB per capita, um __proxy__.
 
-## ParÃ¢metros
+## Parâmetros
 
-NÃ£o existe uma teoria formal que permita orientar com estrita objetividade a seleÃ§Ã£o de indicadores. PorÃ©m, um indicador precisa externar credibilidade, o que requer que ele seja gerado de forma criteriosa, obdecendo os seguintes critÃ©rios:
+Não existe uma teoria formal que permita orientar com estrita objetividade a seleção de indicadores. Porém, um indicador precisa externar credibilidade, o que requer que ele seja gerado de forma criteriosa, obdecendo os seguintes critérios:
 
-- Selectividade ou importÃ¢ncia;
+- Selectividade ou importância;
 - Simplicidade e clareza;
-- AbrangÃªncia;
+- Abrangência;
 - Rastreabilidade e acessibilidade;
 - Compatibilidade.
 
 ## Propriedades de um indicador
 
-- DesagregaÃ§Ã£o (em termos geogrÃ¡ficos, sÃ³cio-demogrÃ¡ficos e temporais.)
-- Reciprocidade (garantir a existÃªncia de facto de uma relaÃ§Ã£o entre conceito e os indicadores propostos);
-- Inteligibilidade (garantir a transparÃªncia de o que se quer a preender).
+- Desagregação (em termos geográficos, sócio-demográficos e temporais.)
+- Reciprocidade (garantir a existência de facto de uma relação entre conceito e os indicadores propostos);
+- Inteligibilidade (garantir a transparência de o que se quer a preender).
 
 # Segunda Parte
 
-## SimulaÃ§Ã£o
+## Como se usam indicares?
 
-- Comparar a estatÃ­stica (mÃ©dia e mediana) empiricamente observada de cada partido em cada ComissÃ£o com as obtidas a partir de amostras aleatÃ³rias dos membros de cada partido.
+- Basicamente, o que queremos com eles é detectar _efeitos marginais_.
 
-- AgregaÃ§Ã£o de todos os partidos para simular os valores sob a hipÃ³tese nula de cada ComissÃ£o (simulaÃ§Ã£o com cluster).
+>- __BIG PROBLEMS__: inacessibilidade, ruído e incerteza.
 
-- Aceitar H1 se `p` for menor que um $\alpha$ (e. g., 0.1), onde `p` Ã© a razÃ£o das vezes em que a estatÃ­stica observada foi maior do que as simuladas.
+
+## Parlamentares disciplinados tornam mais estáveis uma democracia?
+
+>- Resposta: [não sabemos](http://www.jstor.org/discover/10.2307/4150151?uid=2&uid=4&sid=21104375968191).
+
+>- Existe um problema de acessar o contrafactual (como o parlamentar teria se comportado se fosse/não fosse disciplinado?);
+
+>- Disciplina partidária não é comparável entre países (num país com 10 deputados, 80% de disciplina pode ser pouca coisa; num com 500, o oposto).
+
+## O que os EUA podem fazer para acabar com o ISIS? (ruído pt. 1)
+
+>- [Caputar o líder, al-Baghdadi, pode funcionar (ou não)](http://belfercenter.ksg.harvard.edu/publication/21914/does_decapitation_work_assessing_the_effectiveness_of_leadership_targeting_in_counterinsurgency_campaigns.html);
+
+>- [Mas ataques aéreos provavelmente não funcionam (mas isso não é algo certo)](http://www.grammatikhilfe.com/government/research/resgroups/PSPE/pdf/Working-papers/2013/AFGHAN-AIRSTRIKES.pdf).
+
+## Por que se fazem tantas reformas eleitorais na América Latina? (ruído pt. 2)
+
+- Por muitas razões: porque presidentes populares querem se reeleger (e emendam a constituição para permitir isso), porque partidos decadentes aumentam o número de cargos em disputa para se manter no poder, porque existe corrupção no Continente (e a população não gosta disso), etc.
+
+- [Essas explicações, contudo, só explicam, no máximo, 28% do fenômeno](http://www.cide.edu.mx/investigador/documentos/gabriel.negretto/ChoosingJOP.pdf).
+
+## Por que os sistemas partidários africanos parecem tão caóticos?
+
+- [Talvez eles não sejam.](https://files.nyu.edu/mrg217/public/es2.pdf)
+
+- A primeira coisa que deve vir à cabeça quando se fala em incerteza é: __erros tipo I e II__.
+
+## Problemas comuns:
+
+- __Inacessibilidade__: faltam dados, o fenômeno é muito complexo, não é possível compará-lo/acessar o contrafactual, etc.
+
+- __Ruído__: N pequeno, erros de mensuração, muita variação não explicada (termo de erro grande), colinearidade, etc.
+
+- __Incerteza__: problema amostral, modelo inadequado, variáveis omitidas, etc.
+
+## Soluções comuns:
+
+- __Inacessibilidade__: usar um _proxy_, usar um desenho quasi-experimental;
+
+- __Ruído__: coletar mais dados, usar um modelo de variável latente, criar outras variáveis, unir outras, etc.
+
+- __Incerteza__: redesenhar a amostra, usar outras funções e outras especificações, usar uma variável instrumental.
+
+## Como saber se um país é democrático olhando apenas para a sua pirâmide etária (proxy)
+
+- Exemplo de uso criativo de _proxy_: [Richard Cincotta](http://www.wilsoncenter.org/sites/default/files/ECSPReport13_Cincotta.pdf) tem um paper no qual ele usa a estrutura etária de um país como preditor para explicar a democratização;
+
+- A ideia por trás dessa variável é simples: não é a idade das pessoas, por si só, que influencia o regime de um país; ela é só um dos aspectos que geralmente acompanham a modernização da economia e o desenvolvimento socioeconômico e tecnológico de um país.
+
+## Prefeitos realmente ajudam a eleger deputados?
+
+- [Sim, e o efeito é considerável](http://revistapesquisa.fapesp.br/2014/08/21/o-poder-dos-partidos/).
+
+- Para concluir isso, a solução adotada foi montar um banco de dados com só com candidatos a prefeito com votações apertadas e as votações subsequentes dos deputados do partido do que se elegeu;
+
+- (No caso do estudo sobre bombardeios no Afeganistão, o _matching_ é arbitrário).
+
+## O velho exemplo do estudo sobre democratização
+
+- Como dizer se um país como democrático ou não democrático?
+
+- MAIS
+
+## O Congresso nacional é realmente conservador? Como mensurar isso?
+
+- FALAR DO CESAR ZUCCO;
+
+## Deputados mais disciplinados têm preferência nas Comissões mais importantes da Câmara? (Simulação de Monte Carlo)
+
+- Comparar a estatística (média e mediana) empiricamente observada de cada partido em cada Comissão com as obtidas a partir de amostras aleatórias dos membros de cada partido.
+
+- Agregação de todos os partidos para simular os valores sob a hipótese nula de cada Comissão (simulação com cluster).
+
+- Aceitar H1 se `p` for menor que um $\alpha$ (e. g., 0.1), onde `p` é a razão das vezes em que a estatística observada foi maior do que as simuladas.
 
 ## Dados
 
-- FrequÃªncia de Deputados por ComissÃ£o.
+- Frequência de Deputados por Comissão.
 ```{r, message=FALSE, echo=FALSE, fig.width=6, fig.height=4, fig.align='center', cache=TRUE}
 require(foreign)
 subdados <- read.dta("C:/Users/User/Documents/Comissoes/subdados.dta")
@@ -83,7 +147,7 @@ legend("top", title="Legislatura",c("52","53"),bty="n", border=NA, fill=c("grey2
 
 ```
 
-## Bias prÃ³-H0
+## Bias pró-H0
 
 ```{r echo=FALSE, message=FALSE, cache=TRUE, fig.width=8, fig.height=3.7,fig.align='center'}
 source('~/GitHub/Papers/paper_comissoes/comparar.sim.R')
@@ -97,17 +161,22 @@ par(mfrow=c(1,1))
 CompSim(ccj53,"CCJ 53 (gov)","mean")
 ```
 
+## Outras soluções
 
-## Anexos
+- Modelos com efeitos mistos, _fuzzy sets_, desenhos puramente experimentais (_survey_ experimental, por exemplo), FALAR MAIS
 
-__Fontes__
 
-  - Banco de dados Legislativos - CEBRAP;
-  - CÃ¢mara dos Deputados - [www.camara.gov.br](http://www.camara.gov.br/);
-  - Deputados brasileiros: repertÃ³rio biogrÃ¡fico (vÃ¡rios anos).
-  
+## Anexo
+
 __Links__
 
-  - R-scripts: [github.com/meirelesff](https://github.com/meirelesff/) ;
-  - Slides: [meirelesff.github.io/abcp2014](http://meirelesff.github.io/abcp2014) .
+  - Proposta da oficina (com as referências): [goo.gl/PldITb](http://goo.gl/PldITb)
+  - Slides: [meirelesff.github.io/SPG2014](http://meirelesff.github.io/SPG2014)
+  
+__Críticas, sugestões e perguntas__
+
+  - Fernando Meireles (fernando.meireles@ufrgs.br)
+  - Aquilino Varela (varelaaquilino@hotmail.com)
+  - Germano Ribeiro (germano_fs@hotmail.com)
+ 
 
