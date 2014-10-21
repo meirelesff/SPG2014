@@ -104,7 +104,7 @@ Não existe uma teoria formal que permita orientar com estrita objetividade a se
 
 - __Incerteza__: redesenhar a amostra, usar outras funções e outras especificações, usar uma variável instrumental.
 
-## Como saber se um país é democrático olhando apenas para a sua pirâmide etária (proxy)
+## Como saber se um país é democrático olhando apenas para a sua pirâmide etária
 
 - Exemplo de uso criativo de _proxy_: [Richard Cincotta](http://www.wilsoncenter.org/sites/default/files/ECSPReport13_Cincotta.pdf) tem um paper no qual ele usa a estrutura etária de um país como preditor para explicar a democratização;
 
@@ -122,21 +122,26 @@ Não existe uma teoria formal que permita orientar com estrita objetividade a se
 
 - Como dizer se um país como democrático ou não democrático?
 
-- MAIS
+- Criar uma variável dicotômica é ruim por disperdiçar informação; uma variável mais precisa (Polity IV, e. g.) é ruim porque pondera arbitrariamente todos os seus indicadores.
+
+- [Com um modelo latente](http://jackman.stanford.edu/papers/master.pdf), é possível melhorar isso.
 
 ## O Congresso nacional é realmente conservador? Como mensurar isso?
 
-- FALAR DO CESAR ZUCCO;
+- Não existe (até agora) nenhum bom _proxy_ para isso. Podemos, é claro, perguntar para os próprios deputados como eles se posicionariam numa escala, da esquerda à direita. Problemas: eles podem mentir, eles podem distorcer a escala, eles podem usar parâmetros arbitrários para estimar suas posições, etc.
 
-## Deputados mais disciplinados têm preferência nas Comissões mais importantes da Câmara? (Simulação de Monte Carlo)
+- Novamente, [um modelo de variável latente pode dar jeito nisso](http://www.fgv.br/professor/cesar.zucco/files/PaperLAPS2012.pdf).
 
-- Comparar a estatística (média e mediana) empiricamente observada de cada partido em cada Comissão com as obtidas a partir de amostras aleatórias dos membros de cada partido.
 
-- Agregação de todos os partidos para simular os valores sob a hipótese nula de cada Comissão (simulação com cluster).
+## Deputados mais disciplinados têm preferência nas Comissões mais importantes da Câmara? 
+
+- É difícil saber isso porque existe muita dependência entre os casos; também porque as quotas para cada partido são fixas.
+
+- Uma simulação de Monte Carlo, neste caso, é apropriada.
 
 - Aceitar H1 se `p` for menor que um $\alpha$ (e. g., 0.1), onde `p` é a razão das vezes em que a estatística observada foi maior do que as simuladas.
 
-## Dados
+## Os dados
 
 - Frequência de Deputados por Comissão.
 ```{r, message=FALSE, echo=FALSE, fig.width=6, fig.height=4, fig.align='center', cache=TRUE}
@@ -148,7 +153,7 @@ legend("top", title="Legislatura",c("52","53"),bty="n", border=NA, fill=c("grey2
 
 ```
 
-## Bias pró-H0
+## Bias pró-H0 no teste de Pereira e Mueller
 
 ```{r echo=FALSE, message=FALSE, cache=TRUE, fig.width=8, fig.height=3.7,fig.align='center'}
 source('~/GitHub/Papers/paper_comissoes/comparar.sim.R')
@@ -164,8 +169,7 @@ CompSim(ccj53,"CCJ 53 (gov)","mean")
 
 ## Outras soluções
 
-- Modelos com efeitos mistos, _fuzzy sets_, desenhos puramente experimentais (_survey_ experimental, por exemplo), FALAR MAIS
-
+- Modelos com efeitos mistos, _fuzzy sets_, desenhos puramente experimentais (_survey_ experimental, por exemplo), entre outros.
 
 ## Anexo
 
