@@ -1,8 +1,8 @@
 ---
 title: "Construção de Indicadores nas Ciências Sociais"
 subtitle: "IV Salão da Pós-Graduação"
-author: ""
-date: "Fernando Meireles, Aquilino Varela e Germano Ribeiro"
+author: "Fernando Meireles, Aquilino Varela e Germano Ribeiro"
+date: ""
 output:
   ioslides_presentation:
     self_contained: false
