@@ -1,144 +1,144 @@
----
-title: "ConstruÁ„o de Indicadores nas CiÍncias Sociais"
-subtitle: "IV Sal„o da PÛs-GraduaÁ„o"
+Ôªø---
+title: "Constru√ß√£o de Indicadores nas Ci√™ncias Sociais"
+subtitle: "IV Sal√£o da P√≥s-Gradua√ß√£o"
 author: "Fernando Meireles, Aquilino Varela e Germano Ribeiro"
 date: ""
-encoding: "UFT-8"
 output:
   ioslides_presentation:
     self_contained: false
     widescreen: false
     css: estilo.css
 ---
+# Primeira Parte
 
-## O que È um indicador?
+## O que √© um indicador?
 
-- Um composto construÌdo para medir uma vari·vel;
+- Um composto constru√≠do para medir uma vari√°vel;
 
 - Operador de conceitos;
 
-- Medida, geralmente quantitativa, que pode ser usada para ilustrar e comunicar de forma simples um conjunto de fenÙmenos complexos.
+- Medida, geralmente quantitativa, que pode ser usada para ilustrar e comunicar de forma simples um conjunto de fen√¥menos complexos.
 
 ## Natureza dos indicadores
 
-Quanto ‡ natureza, indicadores podem ser _analÌicos_ (constituÌdo por uma ˙nica vari·vel, como esperanÁa de vida, taxa de alfabetizaÁ„o, de escolaridade mÈdia, etc) e _sintÈtico_ ( resultante de uma composiÁ„o de vari·veis, como o IDH).
+Quanto √† natureza, indicadores podem ser _anal√≠icos_ (constitu√≠do por uma √∫nica vari√°vel, como esperan√ßa de vida, taxa de alfabetiza√ß√£o, de escolaridade m√©dia, etc) e _sint√©tico_ ( resultante de uma composi√ß√£o de vari√°veis, como o IDH).
 
-Quanto ‡ natureza do ente indicado, um indicador pode ser:
-De _recurso_ (indicador de insumo), _realidade empÌrica_ (indicador-produto) e ou _processo_ (indicador-processo).
+Quanto √† natureza do ente indicado, um indicador pode ser:
+De _recurso_ (indicador de insumo), _realidade emp√≠rica_ (indicador-produto) e ou _processo_ (indicador-processo).
 
 ## Tipos de indicadores
 
-- Indicadores como rendimento familiar; desempenho escolar; Ìndices de evas„o; Ìndices de repetÍncia; s„o indicadores que podem ser medidos a partir de escalas de intervalo ou de proporÁ„o e podem ser trabalhados a partir de possÌveis relaÁıes quantific·veis; 
+- Indicadores como rendimento familiar; desempenho escolar; √≠ndices de evas√£o; √≠ndices de repet√™ncia; s√£o indicadores que podem ser medidos a partir de escalas de intervalo ou de propor√ß√£o e podem ser trabalhados a partir de poss√≠veis rela√ß√µes quantific√°veis; 
 
-- Aspectos como concepÁıes acerca da funÁ„o social da escola; preferÍncias polÌtico-partid·rias, entre outros, podem ser medidos segundo escalas nominais ou ordinais.
+- Aspectos como concep√ß√µes acerca da fun√ß√£o social da escola; prefer√™ncias pol√≠tico-partid√°rias, entre outros, podem ser medidos segundo escalas nominais ou ordinais.
 
 ## Proxy
 
-- Problema do crescimento e do desenvolvimento econÙmicos: como mensurar desenvolvimento?
-- A soluÁ„o mais frequente na literatura È o PIB per capita, um __proxy__.
+- Problema do crescimento e do desenvolvimento econ√¥micos: como mensurar desenvolvimento?
+- A solu√ß√£o mais frequente na literatura √© o PIB per capita, um __proxy__.
 
-## Par‚metros
+## Par√¢metros
 
-N„o existe uma teoria formal que permita orientar com estrita objetividade a seleÁ„o de indicadores. PorÈm, um indicador precisa externar credibilidade, o que requer que ele seja gerado de forma criteriosa, obdecendo os seguintes critÈrios:
+N√£o existe uma teoria formal que permita orientar com estrita objetividade a sele√ß√£o de indicadores. Por√©m, um indicador precisa externar credibilidade, o que requer que ele seja gerado de forma criteriosa, obdecendo os seguintes crit√©rios:
 
-- Selectividade ou import‚ncia;
+- Selectividade ou import√¢ncia;
 - Simplicidade e clareza;
-- AbrangÍncia;
+- Abrang√™ncia;
 - Rastreabilidade e acessibilidade;
 - Compatibilidade.
 
 ## Propriedades de um indicador
 
-- DesagregaÁ„o (em termos geogr·ficos, sÛcio-demogr·ficos e temporais.)
-- Reciprocidade (garantir a existÍncia de facto de uma relaÁ„o entre conceito e os indicadores propostos);
-- Inteligibilidade (garantir a transparÍncia de o que se quer a preender).
+- Desagrega√ß√£o (em termos geogr√°ficos, s√≥cio-demogr√°ficos e temporais.)
+- Reciprocidade (garantir a exist√™ncia de facto de uma rela√ß√£o entre conceito e os indicadores propostos);
+- Inteligibilidade (garantir a transpar√™ncia de o que se quer a preender).
 
 # Segunda Parte
 
 ## Como se usam indicares?
 
-- Basicamente, o que queremos com eles È detectar _efeitos marginais_.
+- Basicamente, o que queremos com eles √© detectar _efeitos marginais_.
 
->- __BIG PROBLEMS__: inacessibilidade, ruÌdo e incerteza.
+>- __BIG PROBLEMS__: inacessibilidade, ru√≠do e incerteza.
 
 
-## Parlamentares disciplinados tornam mais est·veis uma democracia?
+## Parlamentares disciplinados tornam mais est√°veis uma democracia?
 
->- Resposta: [n„o sabemos](http://www.jstor.org/discover/10.2307/4150151?uid=2&uid=4&sid=21104375968191).
+>- Resposta: [n√£o sabemos](http://www.jstor.org/discover/10.2307/4150151?uid=2&uid=4&sid=21104375968191).
 
->- Existe um problema de acessar o contrafactual (como o parlamentar teria se comportado se fosse/n„o fosse disciplinado?);
+>- Existe um problema de acessar o contrafactual (como o parlamentar teria se comportado se fosse/n√£o fosse disciplinado?);
 
->- Disciplina partid·ria n„o È compar·vel entre paÌses (num paÌs com 10 deputados, 80% de disciplina pode ser pouca coisa; num com 500, o oposto).
+>- Disciplina partid√°ria n√£o √© compar√°vel entre pa√≠ses (num pa√≠s com 10 deputados, 80% de disciplina pode ser pouca coisa; num com 500, o oposto).
 
-## O que os EUA podem fazer para acabar com o ISIS? (ruÌdo pt. 1)
+## O que os EUA podem fazer para acabar com o ISIS? (ru√≠do pt. 1)
 
->- [Caputar o lÌder, al-Baghdadi, pode funcionar (ou n„o)](http://belfercenter.ksg.harvard.edu/publication/21914/does_decapitation_work_assessing_the_effectiveness_of_leadership_targeting_in_counterinsurgency_campaigns.html);
+>- [Caputar o l√≠der, al-Baghdadi, pode funcionar (ou n√£o)](http://belfercenter.ksg.harvard.edu/publication/21914/does_decapitation_work_assessing_the_effectiveness_of_leadership_targeting_in_counterinsurgency_campaigns.html);
 
->- [Mas ataques aÈreos provavelmente n„o funcionam (mas isso n„o È algo certo)](http://www.grammatikhilfe.com/government/research/resgroups/PSPE/pdf/Working-papers/2013/AFGHAN-AIRSTRIKES.pdf).
+>- [Mas ataques a√©reos provavelmente n√£o funcionam (mas isso n√£o √© algo certo)](http://www.grammatikhilfe.com/government/research/resgroups/PSPE/pdf/Working-papers/2013/AFGHAN-AIRSTRIKES.pdf).
 
-## Por que se fazem tantas reformas eleitorais na AmÈrica Latina? (ruÌdo pt. 2)
+## Por que se fazem tantas reformas eleitorais na Am√©rica Latina? (ru√≠do pt. 2)
 
-- Por muitas razıes: porque presidentes populares querem se reeleger (e emendam a constituiÁ„o para permitir isso), porque partidos decadentes aumentam o n˙mero de cargos em disputa para se manter no poder, porque existe corrupÁ„o no Continente (e a populaÁ„o n„o gosta disso), etc.
+- Por muitas raz√µes: porque presidentes populares querem se reeleger (e emendam a constitui√ß√£o para permitir isso), porque partidos decadentes aumentam o n√∫mero de cargos em disputa para se manter no poder, porque existe corrup√ß√£o no Continente (e a popula√ß√£o n√£o gosta disso), etc.
 
-- [Essas explicaÁıes, contudo, sÛ explicam, no m·ximo, 28% do fenÙmeno](http://www.cide.edu.mx/investigador/documentos/gabriel.negretto/ChoosingJOP.pdf).
+- [Essas explica√ß√µes, contudo, s√≥ explicam, no m√°ximo, 28% do fen√¥meno](http://www.cide.edu.mx/investigador/documentos/gabriel.negretto/ChoosingJOP.pdf).
 
-## Por que os sistemas partid·rios africanos parecem t„o caÛticos?
+## Por que os sistemas partid√°rios africanos parecem t√£o ca√≥ticos?
 
-- [Talvez eles n„o sejam.](https://files.nyu.edu/mrg217/public/es2.pdf)
+- [Talvez eles n√£o sejam.](https://files.nyu.edu/mrg217/public/es2.pdf)
 
-- A primeira coisa que deve vir ‡ cabeÁa quando se fala em incerteza È: __erros tipo I e II__.
+- A primeira coisa que deve vir √† cabe√ßa quando se fala em incerteza √©: __erros tipo I e II__.
 
 ## Problemas comuns:
 
-- __Inacessibilidade__: faltam dados, o fenÙmeno È muito complexo, n„o È possÌvel compar·-lo/acessar o contrafactual, etc.
+- __Inacessibilidade__: faltam dados, o fen√¥meno √© muito complexo, n√£o √© poss√≠vel compar√°-lo/acessar o contrafactual, etc.
 
-- __RuÌdo__: N pequeno, erros de mensuraÁ„o, muita variaÁ„o n„o explicada (termo de erro grande), colinearidade, etc.
+- __Ru√≠do__: N pequeno, erros de mensura√ß√£o, muita varia√ß√£o n√£o explicada (termo de erro grande), colinearidade, etc.
 
-- __Incerteza__: problema amostral, modelo inadequado, vari·veis omitidas, etc.
+- __Incerteza__: problema amostral, modelo inadequado, vari√°veis omitidas, etc.
 
-## SoluÁıes comuns:
+## Solu√ß√µes comuns:
 
 - __Inacessibilidade__: usar um _proxy_, usar um desenho quasi-experimental;
 
-- __RuÌdo__: coletar mais dados, usar um modelo de vari·vel latente, criar outras vari·veis, unir outras, etc.
+- __Ru√≠do__: coletar mais dados, usar um modelo de vari√°vel latente, criar outras vari√°veis, unir outras, etc.
 
-- __Incerteza__: redesenhar a amostra, usar outras funÁıes e outras especificaÁıes, usar uma vari·vel instrumental.
+- __Incerteza__: redesenhar a amostra, usar outras fun√ß√µes e outras especifica√ß√µes, usar uma vari√°vel instrumental.
 
-## Como saber se um paÌs È democr·tico olhando apenas para a sua pir‚mide et·ria (proxy)
+## Como saber se um pa√≠s √© democr√°tico olhando apenas para a sua pir√¢mide et√°ria (proxy)
 
-- Exemplo de uso criativo de _proxy_: [Richard Cincotta](http://www.wilsoncenter.org/sites/default/files/ECSPReport13_Cincotta.pdf) tem um paper no qual ele usa a estrutura et·ria de um paÌs como preditor para explicar a democratizaÁ„o;
+- Exemplo de uso criativo de _proxy_: [Richard Cincotta](http://www.wilsoncenter.org/sites/default/files/ECSPReport13_Cincotta.pdf) tem um paper no qual ele usa a estrutura et√°ria de um pa√≠s como preditor para explicar a democratiza√ß√£o;
 
-- A ideia por tr·s dessa vari·vel È simples: n„o È a idade das pessoas, por si sÛ, que influencia o regime de um paÌs; ela È sÛ um dos aspectos que geralmente acompanham a modernizaÁ„o da economia e o desenvolvimento socioeconÙmico e tecnolÛgico de um paÌs.
+- A ideia por tr√°s dessa vari√°vel √© simples: n√£o √© a idade das pessoas, por si s√≥, que influencia o regime de um pa√≠s; ela √© s√≥ um dos aspectos que geralmente acompanham a moderniza√ß√£o da economia e o desenvolvimento socioecon√¥mico e tecnol√≥gico de um pa√≠s.
 
 ## Prefeitos realmente ajudam a eleger deputados?
 
-- [Sim, e o efeito È consider·vel](http://revistapesquisa.fapesp.br/2014/08/21/o-poder-dos-partidos/).
+- [Sim, e o efeito √© consider√°vel](http://revistapesquisa.fapesp.br/2014/08/21/o-poder-dos-partidos/).
 
-- Para concluir isso, a soluÁ„o adotada foi montar um banco de dados com sÛ com candidatos a prefeito com votaÁıes apertadas e as votaÁıes subsequentes dos deputados do partido do que se elegeu;
+- Para concluir isso, a solu√ß√£o adotada foi montar um banco de dados com s√≥ com candidatos a prefeito com vota√ß√µes apertadas e as vota√ß√µes subsequentes dos deputados do partido do que se elegeu;
 
-- (No caso do estudo sobre bombardeios no Afeganist„o, o _matching_ È arbitr·rio).
+- (No caso do estudo sobre bombardeios no Afeganist√£o, o _matching_ √© arbitr√°rio).
 
-## O velho exemplo do estudo sobre democratizaÁ„o
+## O velho exemplo do estudo sobre democratiza√ß√£o
 
-- Como dizer se um paÌs como democr·tico ou n„o democr·tico?
+- Como dizer se um pa√≠s como democr√°tico ou n√£o democr√°tico?
 
 - MAIS
 
-## O Congresso nacional È realmente conservador? Como mensurar isso?
+## O Congresso nacional √© realmente conservador? Como mensurar isso?
 
 - FALAR DO CESAR ZUCCO;
 
-## Deputados mais disciplinados tÍm preferÍncia nas Comissıes mais importantes da C‚mara? (SimulaÁ„o de Monte Carlo)
+## Deputados mais disciplinados t√™m prefer√™ncia nas Comiss√µes mais importantes da C√¢mara? (Simula√ß√£o de Monte Carlo)
 
-- Comparar a estatÌstica (mÈdia e mediana) empiricamente observada de cada partido em cada Comiss„o com as obtidas a partir de amostras aleatÛrias dos membros de cada partido.
+- Comparar a estat√≠stica (m√©dia e mediana) empiricamente observada de cada partido em cada Comiss√£o com as obtidas a partir de amostras aleat√≥rias dos membros de cada partido.
 
-- AgregaÁ„o de todos os partidos para simular os valores sob a hipÛtese nula de cada Comiss„o (simulaÁ„o com cluster).
+- Agrega√ß√£o de todos os partidos para simular os valores sob a hip√≥tese nula de cada Comiss√£o (simula√ß√£o com cluster).
 
-- Aceitar H1 se `p` for menor que um $\alpha$ (e. g., 0.1), onde `p` È a raz„o das vezes em que a estatÌstica observada foi maior do que as simuladas.
+- Aceitar H1 se `p` for menor que um $\alpha$ (e. g., 0.1), onde `p` √© a raz√£o das vezes em que a estat√≠stica observada foi maior do que as simuladas.
 
 ## Dados
 
-- FrequÍncia de Deputados por Comiss„o.
+- Frequ√™ncia de Deputados por Comiss√£o.
 ```{r, message=FALSE, echo=FALSE, fig.width=6, fig.height=4, fig.align='center', cache=TRUE}
 require(foreign)
 subdados <- read.dta("C:/Users/User/Documents/Comissoes/subdados.dta")
@@ -148,7 +148,7 @@ legend("top", title="Legislatura",c("52","53"),bty="n", border=NA, fill=c("grey2
 
 ```
 
-## Bias prÛ-H0
+## Bias pr√≥-H0
 
 ```{r echo=FALSE, message=FALSE, cache=TRUE, fig.width=8, fig.height=3.7,fig.align='center'}
 source('~/GitHub/Papers/paper_comissoes/comparar.sim.R')
@@ -162,7 +162,7 @@ par(mfrow=c(1,1))
 CompSim(ccj53,"CCJ 53 (gov)","mean")
 ```
 
-## Outras soluÁıes
+## Outras solu√ß√µes
 
 - Modelos com efeitos mistos, _fuzzy sets_, desenhos puramente experimentais (_survey_ experimental, por exemplo), FALAR MAIS
 
@@ -171,10 +171,10 @@ CompSim(ccj53,"CCJ 53 (gov)","mean")
 
 __Links__
 
-  - Proposta da oficina (com as referÍncias): [goo.gl/PldITb](http://goo.gl/PldITb)
+  - Proposta da oficina (com as refer√™ncias): [goo.gl/PldITb](http://goo.gl/PldITb)
   - Slides: [meirelesff.github.io/SPG2014](http://meirelesff.github.io/SPG2014)
   
-__CrÌticas, sugestıes e perguntas__
+__Cr√≠ticas, sugest√µes e perguntas__
 
   - Fernando Meireles (fernando.meireles@ufrgs.br)
   - Aquilino Varela (varelaaquilino@hotmail.com)
