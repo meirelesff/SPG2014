@@ -59,7 +59,7 @@ Não existe uma teoria formal que permita orientar com estrita objetividade a se
 
 - Basicamente, o que queremos com eles é detectar _efeitos marginais_.
 
->- __BIG PROBLEMS__: inacessibilidade, ruído e incerteza.
+>- __PROBLEMAS__: inacessibilidade, ruído e incerteza.
 
 
 ## Parlamentares disciplinados tornam mais estáveis uma democracia?
@@ -184,4 +184,3 @@ __Críticas, sugestões e perguntas__
   - Aquilino Varela (varelaaquilino@hotmail.com)
   - Germano Ribeiro (germano_fs@hotmail.com)
  
-
