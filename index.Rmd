@@ -1,0 +1,113 @@
+---
+title: "Construção de Indicadores nas Ciências Sociais"
+subtitle: "Salão de Pós-Graduação 2014"
+author: ""
+date: ""
+output:
+  ioslides_presentation:
+    self_contained: false
+    widescreen: false
+    css: estilo.css
+---
+# Primeira Parte
+
+## O que é um indicador?
+
+- Um composto construído para medir uma dimensão ou variável;
+
+- Operador de conceitos;
+
+- Medida, geralmente quantitativa, que pode ser usada para ilustrar e comunicar de forma simples um conjunto de fenômenos complexos.
+
+## Natureza dos indicadores
+
+- Por detrás de teorias explícitas ou hipóteses há sempre um fenômeno por explicar, por testar - uma _teoria auxiliar_;
+
+- Esta teoria auxiliar tem a função de especificar as relações entre os mundos teórico e empírico;
+
+- Esta relação é referenciada na filosofia da ciência, na sociologia e literaturas psicométricas como correlação epistêmica, regras de correspondência e definições operacionais consoante o caso.
+
+## Natureza dos indicadores
+
+Quanto à natureza, indicadores podem ser _analíticos_ (constituído por uma única variável, como esperança de vida, taxa de alfabetização, de escolaridade média, etc) e _sintético_ ( resultante de uma composição de variáveis, como o IDH).
+
+Quanto à natureza do ente indicado, um indicador pode ser:
+De _recurso_ (indicador de insumo), _realidade empírica_ (indicador-produto) e ou _processo_ (indicador-processo).
+
+## Tipos de indicadores
+
+- Indicadores como rendimento familiar; desempenho escolar; índices de evasão; índices de repetência; são indicadores que podem ser medidos a partir de escalas de intervalo ou de proporção e podem ser trabalhados a partir de possíveis relações quantificáveis; 
+
+- Aspectos como concepções acerca da função social da escola; preferências político-partidárias, entre outros, só podem ser medidos segundo escalas nominais ou ordinais.
+
+## Proxy
+
+-Problema do crescimento e do desenvolvimento econômicos: como mensurar desenvolvimento?
+-A solução mais frequente na literatura é o PIB per capita, um __proxy__.
+
+## Parâmetros
+
+Não existe uma teoria formal que permita orientar com estrita objetividade a seleção de indicadores. Porém, um indicador precisa externar credibilidade, o que requer que ele seja gerado de forma criteriosa, obdecendo os seguintes critérios:
+
+- Selectividade ou importância;
+- Simplicidade e clareza;
+- Abrangência;
+- Rastreabilidade e acessibilidade;
+- Compatibilidade.
+
+## Propriedades de um indicador
+
+- Desagregação (em termos geográficos, sócio-demográficos e temporais.)
+- Reciprocidade (garantir a existência de facto de uma relação entre conceito e os indicadores propostos);
+- Inteligibilidade (garantir a transparência de o que se quer a preender).
+
+# Segunda Parte
+
+## Simulação
+
+- Comparar a estatística (média e mediana) empiricamente observada de cada partido em cada Comissão com as obtidas a partir de amostras aleatórias dos membros de cada partido.
+
+- Agregação de todos os partidos para simular os valores sob a hipótese nula de cada Comissão (simulação com cluster).
+
+- Aceitar H1 se `p` for menor que um $\alpha$ (e. g., 0.1), onde `p` é a razão das vezes em que a estatística observada foi maior do que as simuladas.
+
+## Dados
+
+- Frequência de Deputados por Comissão.
+```{r, message=FALSE, echo=FALSE, fig.width=6, fig.height=4, fig.align='center', cache=TRUE}
+require(foreign)
+subdados <- read.dta("C:/Users/User/Documents/Comissoes/subdados.dta")
+counts <- table (subdados$legis,subdados$comissao_inicio)
+barplot(counts,beside=T,col=c("grey20", "grey80"), border=NA)
+legend("top", title="Legislatura",c("52","53"),bty="n", border=NA, fill=c("grey20", "grey80")) 
+
+```
+
+## Bias pró-H0
+
+```{r echo=FALSE, message=FALSE, cache=TRUE, fig.width=8, fig.height=3.7,fig.align='center'}
+source('~/GitHub/Papers/paper_comissoes/comparar.sim.R')
+source('~/GitHub/Papers/paper_comissoes/simulacaoclusterBias.R')
+banco53 <- readRDS("C:/Users/User/Documents/Comissoes/banco53.Rda")
+set.seed(1)
+
+ccj53 <- SimClusterBiased(Discgov,ccj,parini,banco53)
+
+par(mfrow=c(1,1))
+CompSim(ccj53,"CCJ 53 (gov)","mean")
+```
+
+
+## Anexos
+
+__Fontes__
+
+  - Banco de dados Legislativos - CEBRAP;
+  - Câmara dos Deputados - [www.camara.gov.br](http://www.camara.gov.br/);
+  - Deputados brasileiros: repertório biográfico (vários anos).
+  
+__Links__
+
+  - R-scripts: [github.com/meirelesff](https://github.com/meirelesff/) ;
+  - Slides: [meirelesff.github.io/abcp2014](http://meirelesff.github.io/abcp2014) .
+
