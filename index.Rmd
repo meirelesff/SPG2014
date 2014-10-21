@@ -3,14 +3,13 @@ title: "Construção de Indicadores nas Ciências Sociais"
 subtitle: "IV Salão da Pós-Graduação"
 author: "Fernando Meireles, Aquilino Varela e Germano Ribeiro"
 date: ""
-encoding: UTF-8
+encoding: "UFT-8"
 output:
   ioslides_presentation:
     self_contained: false
     widescreen: false
     css: estilo.css
 ---
-# Primeira Parte
 
 ## O que é um indicador?
 
